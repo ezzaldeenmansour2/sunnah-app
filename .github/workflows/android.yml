@@ -23,9 +23,6 @@ jobs:
         with:
           flutter-version: '3.50.1'
 
-      - name: Restore icons
-        run: python3 tool/restore_android_icons.py
-
       - run: flutter pub get
       - run: flutter build apk --debug
 
