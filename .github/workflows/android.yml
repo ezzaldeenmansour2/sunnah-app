@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Unzip source
-        run: unzip -o "sunnah-app-p0-source (4).zip" -d .
+        run: unzip -o "sunnah-app-p0-source-v2.zip" -d .
 
       - uses: actions/setup-java@v4
         with:
